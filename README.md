@@ -2,23 +2,38 @@
 
 FIFA Street PC portuna **Galatasaray, Fenerbahçe, Beşiktaş ve Trabzonspor**, 96 oyuncu, Süper Lig menüsü ve Türkçe metinler ekler.
 
-**Uyumlu sürüm: ReStreet 1.5.5 Online Beta · Mod sürümü: 1.0**
+**Uyumlu sürüm: ReStreet 1.5.5 Online Beta · Mod sürümü: 1.0.1**
 
-## İndir
+## İndir ve kur
 
-**[Yamayı indir](https://github.com/ErdemYaziciOfficial/restreet-super-lig-turkce-yama/releases/latest)** → `ReStreet-SuperLig-1.0.zip` dosyasına tıkla.
+### v1.0 yamayı zaten kurduysan
 
-> Bu bir yama paketidir. Önce [ReStreet 1.5.5 Online Beta](https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v1.5.5-online-beta) kurulu olmalı. GitHub'ın “Source code” dosyalarını indirmene gerek yok.
+**[Forma düzeltmesini indir — yaklaşık 5,4 MB](https://github.com/ErdemYaziciOfficial/restreet-super-lig-turkce-yama/releases/download/v1.0.1/ReStreet-SuperLig-1.0.1-Forma-Duzeltmesi.zip)**
 
-## Kurulum — 5 kolay adım
+1. Oyunu ve launcher'ı kapat.
+2. ZIP'i tamamen çıkart.
+3. **KUR.cmd** dosyasına çift tıkla ve oyun ana klasörünü seç.
+4. “Kurulum tamamlandı” yazınca oyunu aç. Oyunu veya ana yamayı tekrar indirmen gerekmez.
 
-1. **Oyunu ve launcher'ı kapat.**
-2. İndirdiğin ZIP'e sağ tıkla → **Tümünü ayıkla**. Kurulumu ZIP'in içinden çalıştırma.
-3. Çıkardığın klasörde **KUR.cmd** dosyasına çift tıkla.
-4. Açılan pencerede **oyunun ana klasörünü** seç. İçinde `Binaries`, `Game` ve `FifaStreetLauncher.exe` bulunmalı. `Game` klasörünün içine girme.
-5. **Kurulum tamamlandı** yazısını bekle. Launcher'ı aç, oyun dilini **English** seç ve oyna. Türkçe metinler bu dil seçeneğinde çalışır.
+### İlk kez kuruyorsan
 
-Program mevcut dosyaları otomatik yedekler. Kayıtlarını silmez. Python, ek program veya elle dosya kopyalama gerekmez.
+Önce [ReStreet 1.5.5 Online Beta](https://github.com/samuelit0davila/fifa-street-pc-port/releases/tag/v1.5.5-online-beta) kurulu olmalı.
+
+1. **[Ana yamayı indir — 843 MB](https://github.com/ErdemYaziciOfficial/restreet-super-lig-turkce-yama/releases/download/v1.0/ReStreet-SuperLig-1.0.zip)** ve ZIP'i çıkart.
+2. Oyunu ve launcher'ı kapat. **KUR.cmd** dosyasına çift tıkla.
+3. İçinde `Binaries`, `Game` ve `FifaStreetLauncher.exe` bulunan oyun ana klasörünü seç.
+4. Yukarıdaki **5,4 MB forma düzeltmesini de** aynı şekilde kur. Ana paket tek başına güncel formalar için yeterli değildir.
+5. Launcher'da oyun dilini **English** seç ve oyna; Türkçe metinler bu seçenekle çalışır.
+
+GitHub'ın “Source code” dosyalarını indirmene gerek yok. Python veya ek program gerekmez. Değiştirilen dosyalar otomatik yedeklenir; kayıtların silinmez.
+
+### 1.0.1 neyi düzeltiyor?
+
+v1.0 paylaşım paketinde eksik kalan `data3.big` forma arşivi güncellemesini ve `data3.bh` indeksini tamamlar. Bu eksik temiz kurulumda eski formaların görünmesine neden oluyordu. Hata paketleme kaynaklıydı.
+
+Düzeltme orijinal arşivi hash ile tanır, güncel arşivi geçici dosyada oluşturur, tamamını doğrular ve eski dosyaları yedekleyerek kurar. Başka modlarla değiştirilmiş bir arşive zorla uygulanmaz.
+
+Orijinal arşiv üzerinde kurulum, tekrar kurulum ve geri alma testleri geçti. Etkilenen kullanıcının oyun içi geri bildirimi henüz alınmadı. Bazı oyunculardaki beyaz el–ayak bildirimi ayrıca incelenmektedir; bu sürüm onu çözdüğü iddiasını taşımaz.
 
 ## Neler var?
 

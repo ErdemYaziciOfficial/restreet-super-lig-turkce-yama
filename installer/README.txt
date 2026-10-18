@@ -1,0 +1,1 @@
+Bu kaynak dosyalar tek basina kurulum yapmaz. Hazir paket icin GitHub Releases bolumunden ZIP indirin.
